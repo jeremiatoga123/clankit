@@ -23,8 +23,8 @@ export const links: LinksFunction = () => [
 ];
 
 const config = getDefaultConfig({
-  appName: "clankit-hwfq",
-  projectId: import.meta.env.VITE_WALLETCONNECT_PROJECT_ID || "prj_0X2fG0sIB3PvypMkEG182IiXN0xe",
+  appName: "Clankit",
+  projectId: "3f7d98bbf11f70b13019b8bfaeb0a1c5",
   chains: [mainnet, polygon, optimism, arbitrum, base],
 });
 
